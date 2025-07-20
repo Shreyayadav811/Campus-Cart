@@ -15,3 +15,13 @@ A full-stack web platform where college students can post and purchase second-ha
 - Backend: Node.js, Express.js
 - Database: MongoDB
 - Tools: Git, GitHub
+
+## Future Improvements
+
+- Chat system between buyer and seller  
+  → Users can visit a seller's profile and directly start a conversation  
+- Add item search and filter by category  
+- Wishlist or "Save for Later" feature  
+- Preview and validation of images before upload  
+- Deploy the application with proper domain and hosting
+
