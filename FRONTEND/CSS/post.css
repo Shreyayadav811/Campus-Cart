@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #f4f4f9;
     display: flex;
     justify-content: center;
@@ -15,12 +15,16 @@ body {
 }
 
 .container {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #d6d0d3;
+    background: radial-gradient(circle, rgba(214, 208, 211, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
     width: 400px;
+    max-width: 420px;
 }
+
 
 h1 {
     text-align: center;
@@ -43,18 +47,28 @@ input, textarea {
     border-radius: 5px;
 }
 
-button {
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
+.btn-grad {
+    background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+    margin: 10px auto;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #45a049;
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
 }
+
 
 #errorMessages {
     color: red;
